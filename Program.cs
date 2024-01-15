@@ -8,7 +8,7 @@ internal class Program
         int[] results = new int[11];
 
         System.Console.WriteLine("Welcome to the dice throwing simulator!\n");
-        System.Console.WriteLine("How many dice rolles would you like to simulate?");
+        System.Console.WriteLine("How many dice rolls would you like to simulate?");
 
 
         rollCount = int.Parse(System.Console.ReadLine());
