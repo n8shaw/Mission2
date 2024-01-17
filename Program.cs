@@ -10,9 +10,11 @@ internal class Program
         System.Console.WriteLine("Welcome to the dice throwing simulator!\n");
         System.Console.WriteLine("How many dice rolls would you like to simulate?");
 
-
+        //read in amount we want to roll from user
         rollCount = int.Parse(System.Console.ReadLine());
 
+
+        //assign the return value of the method to the array
         results = dr.RollDie(rollCount);
 
         for (int i = 0; i < results.Length; i++)
