@@ -27,7 +27,9 @@ namespace Mission_2
             for (int i = 0; i < numRolls; i++)
             {
                 
-                int randomRoll = random.Next(2,13);
+                int randomRoll1 = random.Next(1,7);
+                int randomRoll2 = random.Next(1, 7);
+                int randomRoll = randomRoll1 + randomRoll2;
 
                 //assign rolls to correct storage location in the array
                 results[randomRoll-2]++;
